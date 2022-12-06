@@ -1,0 +1,254 @@
+
+
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+/* Variables */
+:root{
+    --primaryColor:#282C33;
+    --secondaryColor:#C70000;
+}
+
+
+
+body{
+    background-color: #282C33;
+    font-family: 'Fira Code', monospace;
+
+    
+}
+
+.whatsapp{
+    position: fixed;
+    right: 10px;
+    bottom:30px;
+    z-index: 666px;
+
+}
+
+body hr{
+    margin-top: 120px;
+    color: var(--secondaryColor);
+    margin-bottom: 120px;
+    border-width: 3px;
+    
+}
+
+body span{
+    color: var(--secondaryColor);
+    
+}
+
+body h2{
+    color: white;
+    
+}
+header .nav-link{
+    font-size: 15px;
+    color: white;
+    transition: .4s;
+
+    /* font-size: 24px;    TAMAÑO DEL TEXTO BARRA DE NAVEGACIÓN*/
+}
+
+
+header .nav-link span{
+    color:var(--secondaryColor);
+    font-size: 15px;
+} 
+header .nav-link{
+    background-color: #282C33;
+} 
+
+.nav-link:hover{
+    color: var(--secondaryColor);
+}
+
+.nav-link h6{
+    color: var(--secondaryColor);
+
+    /* font-size: 24px;    TAMAÑO DEL TEXTO BARRA DE NAVEGACIÓN*/
+}
+
+header #hero{
+    width: 100%;
+    position: relative;
+}
+
+
+
+header #hero h1{
+    color:white;
+    padding-top: 180px;
+}
+
+header #hero span{
+    color:var(--secondaryColor);
+}
+
+header #hero p{
+    color:white;
+    padding-top: 60px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+header #hero button{
+    color: white;
+    padding: 10px 10px;
+    background: var(--primaryColor);
+    border-color:var(--secondaryColor);
+    transition: .4s;
+    text-decoration: none;
+}
+
+header #hero button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header #hero button:hover{
+    color: var(--secondaryColor);
+    
+}
+
+header #hero img{
+    margin-top: 100px;
+    height: 430px;
+    width: 465px ;
+ 
+}
+
+header #cuadrotexto{
+    margin-top: 100px;
+    height: 130px;
+    width: 1300px;
+    text-align: center;
+}
+
+/*PERFIL ADSI*/
+main{
+    border:5px #282C33;
+}
+
+
+main #perfil-adsi span{
+    color: var(--secondaryColor);
+}
+
+main #perfil-adsi h2{
+    color: white;
+    margin-bottom: 50px;
+}
+
+main #perfil-adsi p{
+    color: white;
+}
+
+
+main #perfil-adsi img{
+    margin-left: 100px;
+
+}
+
+
+
+/*estudios*/
+
+main #estudios h2{
+    color: white;
+}
+
+main #estudios span{
+    color:var(--secondaryColor);
+}
+
+
+/* habilidades */
+
+main #habilidades h1{
+    color: white;
+}
+main #habilidades span{
+    color: var(--secondaryColor);
+}
+
+/*Experiena*/
+
+main #experiencia h2{
+    color: white;
+}
+
+
+
+/* Contactos */
+
+
+main #contactos h2{
+    color: white;
+}
+
+
+main #contactos span{
+    color: var(--secondaryColor);
+}
+
+
+main #contactos p{
+    margin-top: 50px;
+    color: white;
+}
+
+
+main #contactos ul li{
+    color: white;
+    text-align: center;
+    list-style: url(../img/Correo.png);
+    list-style-position:inside ;
+}
+
+
+main #contactos p{
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+/*Footer*/
+
+footer div article{
+    margin-top: 150 px;
+    height: 200px;
+    margin-bottom: 200px;
+
+    
+}
+
+footer article p{
+    margin-top: 21px;
+    color: white;
+    text-align: center;
+}
+
+footer article ul li{
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    list-style-image:url(../img/lista.png) ;
+}
+
+footer article ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+footer article ul li a:hover{
+    text-decoration: none;
+    color:var(--secondaryColor);
+}
